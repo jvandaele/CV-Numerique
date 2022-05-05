@@ -670,6 +670,20 @@
             </div>
         </div>
     </div>
+    <div class="section" id="links">
+        <div class="container">
+            <div class="row" style="text-align: center;">
+                <div class="linkBox col">
+                    <img class="linkLogo" src="Icônes/GitHub.png">
+                    <a href="https://github.com/jvandaele" target="_blank" class="link" id="linkGithub">Mon dépôt Github</a>
+                </div>
+                <div class="linkBox col">
+                    <img class="linkLogo" src="Icônes/LinkedIn.png">
+                    <a href="https://www.linkedin.com/in/jason-vandaele-a8b47520b/" target="_blank" class="link" id="linkLinkedIn">Mon profil LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="section" id="contact">
         <div class="container">
             <div class="title" id="titleContact">Me contacter</div>

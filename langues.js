@@ -24,6 +24,8 @@ var realisationDescriptionStageLP = document.getElementsByClassName('realisation
 var loisirLabelJeuxVideos = document.getElementById('loisirLabelJeuxVideos');
 var loisirLabelMontageVideo = document.getElementById('loisirLabelMontageVideo');
 var loisirLabelPetitsProjets = document.getElementById('loisirLabelPetitsProjets');
+var lienGithubText = document.getElementById('linkGithub');
+var lienLinkedInText = document.getElementById('linkLinkedIn');
 var titleContact = document.getElementById('titleContact');
 var descriptionContact = document.getElementById('descriptionContact');
 var description2Contact = document.getElementById('description2Contact');
@@ -44,6 +46,8 @@ function changeLanguage(languageId){
 			loisirLabelJeuxVideos.innerHTML = 'Jeux vidéos';
 			loisirLabelMontageVideo.innerHTML = 'Montage vidéo';
 			loisirLabelPetitsProjets.innerHTML = 'Petits projets';
+			lienGithubText.text = 'Mon dépôt Github';
+			lienLinkedInText.text = 'Mon profil LinkedIn';
 			titleContact.innerHTML = 'Me contacter';
 			descriptionContact.innerHTML = "Une question ? Une remarque ? N'hésitez pas à me contacter grâce à l'adresse e-mail ci-dessous, je vous répondrai dès que possible !";
 			description2Contact.innerHTML = "N'hésitez pas à me fournir votre numéro de téléphone si vous préférez les échanges vocaux !";
@@ -79,6 +83,8 @@ function changeLanguage(languageId){
 			loisirLabelJeuxVideos.innerHTML = 'Video games';
 			loisirLabelMontageVideo.innerHTML = 'Video editing';
 			loisirLabelPetitsProjets.innerHTML = 'Little projects';
+			lienGithubText.text = 'My Github repository';
+			lienLinkedInText.text = 'My LinkedIn profile';
 			titleContact.innerHTML = 'Contact me';
 			descriptionContact.innerHTML = "A question ? A comment ? Do not hesitate to contact me through the email address below, I will answer you as soon as possible !";
 			description2Contact.innerHTML = 'Do not hesitate to provide me with your telephone number if you prefer voice exchanges !';

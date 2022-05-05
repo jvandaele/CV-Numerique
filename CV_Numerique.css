@@ -203,6 +203,24 @@ body {
 	100%    {-webkit-transform:translateX(0px) translateY(0px)}
 }
 
+#links{ background-color: #13c20a; }
+
+.link {
+	font-weight: bold;
+	color:  white;
+}
+
+.link:hover, .link:active {
+	color: black;
+	text-decoration: none;
+}
+
+.linkLogo {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+
 .contactRow { padding: 15px; }
 
 #footer {
